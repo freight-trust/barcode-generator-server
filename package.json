@@ -1,0 +1,22 @@
+{
+	"name": "freight-trust-barcode-generator",
+	"version": "1.0.0",
+	"description": "Barcode Generator for GS1 GTIN",
+	"main": "entrypoint.sh",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"usb-server": "node src/usbserver.js",
+		"barcode-gen": "node threaded src/server.js"
+	},
+	"keywords": [],
+	"author": "SEE LICENSE",
+	"license": "Apache-2.0",
+	"dependencies": {
+		"bwip-js": "^2.0.7",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"fabric": "^3.6.3",
+		"jsprintmanager": "^3.0.4",
+		"websocket": "^1.0.31"
+	}
+}
