@@ -1,11 +1,13 @@
-`sudo apt-get update`
+# USB Server Barcode Generator
 
-`sudo npm install -g node-gyp`
+## Dockerfile
 
-`sudo apt-get install libcairo2-dev`
+docker build . -t barcode-usb:latest
 
-//`npm install canvas`
+## Usage
 
-`sudo apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev`
+SEE `entrypoint`
 
-`npm install`
+## License
+
+ISC
